@@ -1,5 +1,7 @@
 # customer-fallback
 
+Playing around with webpack fallback management
+
 ## Project setup
 ```
 yarn install

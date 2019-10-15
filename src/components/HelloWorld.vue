@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <test />
+    <test-customer />
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -87,8 +89,14 @@
 </template>
 
 <script>
+import Test from "c4/components/Test.vue";
+import TestCustomer from "c4/components/TestCustomer.vue";
 export default {
   name: "HelloWorld",
+  components: {
+    Test,
+    TestCustomer
+  },
   props: {
     msg: String
   }
